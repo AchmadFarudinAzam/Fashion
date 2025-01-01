@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #hero-section {
+    height: 67vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+  
+  .content {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding-top: 5vh;
+  }
+  
+  .featured-items {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .featured-items .item img {
+    width: 200px;
+    height: auto;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  /* Media query for mobile devices */
+@media (max-width: 768px) {
+  body, html {
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+  }
+
+  header {
+      padding: 10px;
+      font-size: 18px;
+  }
+
+  nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  }
+
+  nav ul li {
+      margin: 5px 0;
+  }
+
+  #hero-section {
+      height: auto;
+      padding: 20px;
+      font-size: 1.5rem;
+  }
+
+  .featured-items {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .featured-items .item img {
+      width: 100%;
+      max-width: 300px;
+  }
+
+  .form-container {
+      padding: 20px;
+      max-width: 100%;
+      box-shadow: none;
+  }
+
+  footer {
+      padding: 10px;
+      font-size: 12px;
+  }
+
+  #canvas-container {
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  .model-container {
+      width: 100%;
+      height: auto;
+  }
+
+  .ar-button {
+      font-size: 12px;
+      padding: 8px;
+  }
+
+  #qr-code {
+      width: 90%;
+      padding: 15px;
+  }
+}
+  
